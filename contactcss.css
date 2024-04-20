@@ -1,0 +1,88 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact4 {
+  font-family: "Montserrat", sans-serif;
+  color: green;
+  font-weight: 300;
+}
+
+.contact4 h1,
+.contact4 h2,
+.contact4 h3,
+.contact4 h4,
+.contact4 h5,
+.contact4 h6 {
+  color: green;
+}
+
+.contact4 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid green;
+}
+
+.contact4 .form-control:focus {
+  border-color: green;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: green;
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: green;
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: white;
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4 .text-inverse {
+  color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+  .contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .contact4 .right-image {
+    position: relative;
+    bottom: -95px;
+  }
+}
+
+.container {
+  align-items: center;
+}
+
+#spans {
+  color: white;
+}

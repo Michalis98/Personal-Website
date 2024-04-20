@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#homebtn {
+  background-color: green;
+}
+body {
+  min-height: 100vh;
+  background: black;
+}
+
+.bg {
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bubbles {
+  position: relative;
+  display: flex;
+}
+
+.bubbles span {
+  top: -1;
+
+  position: relative;
+  min-width: 55px; /* Smaller width */
+  height: 25px; /* Smaller height */
+  background-color: #127380;
+  margin: 0 2px; /* Smaller margin */
+
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px green, 0 0 50px greenyellow, 0 0 100px rgb(71, 141, 71);
+  margin: 0 4px;
+  animation: animate 30s linear infinite; /* Increase the duration to slow down the animation */
+  animation-duration: calc(65s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+  background: blueviolet;
+  box-shadow: 0 0 0 10px rgb(55, 55, 128), 0 0 50px blueviolet,
+    0 0 100px blueviolet;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(100vh) scale(0); /* Start at the bottom of the page */
+  }
+  100% {
+    transform: translateY(-100vh) scale(1); /* End at the top of the page */
+  }
+}
+
+.bg,
+.bubbles {
+  z-index: -1;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+  color: white;
+}
+
+#myname {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+#footer {
+}
