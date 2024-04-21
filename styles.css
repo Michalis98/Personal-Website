@@ -100,3 +100,10 @@ h1 {
   margin-top: 140px;
   color: white !important;
 }
+
+html,
+body {
+  height: 100vh; /* Set the height of html and body to the full viewport height */
+  overflow: hidden; /* Hide the scroll bar */
+  margin: 0; /* Remove default margins */
+}
