@@ -7,7 +7,7 @@
 
 .contact4 {
   font-family: "Montserrat", sans-serif;
-  color: green;
+  color: purple;
   font-weight: 300;
 }
 
@@ -17,7 +17,7 @@
 .contact4 h4,
 .contact4 h5,
 .contact4 h6 {
-  color: green;
+  color: purple;
 }
 
 .contact4 .font-weight-medium {
@@ -26,21 +26,21 @@
 
 .contact4 .form-control {
   background: transparent;
-  border: 2px solid green;
+  border: 2px solid purple;
 }
 
 .contact4 .form-control:focus {
-  border-color: green;
+  border-color: purple;
 }
 
 .contact4 input::-webkit-input-placeholder,
 .contact4 textarea::-webkit-input-placeholder {
-  color: green;
+  color: purple;
 }
 
 .contact4 input:-ms-input-placeholder,
 .contact4 textarea:-ms-input-placeholder {
-  color: green;
+  color: purple;
 }
 
 .contact4 input::placeholder,

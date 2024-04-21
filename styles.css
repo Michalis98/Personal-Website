@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 #homebtn {
-  background-color: green;
+  background-color: rgb(144, 9, 185);
 }
 body {
   min-height: 100vh;
@@ -34,7 +35,8 @@ body {
   margin: 0 2px; /* Smaller margin */
 
   border-radius: 50%;
-  box-shadow: 0 0 0 10px green, 0 0 50px greenyellow, 0 0 100px rgb(71, 141, 71);
+  box-shadow: 0 0 0 10px rgb(33, 64, 201), 0 0 50px rgb(151, 88, 167),
+    0 0 100px rgb(71, 141, 71);
   margin: 0 4px;
   animation: animate 30s linear infinite; /* Increase the duration to slow down the animation */
   animation-duration: calc(65s / var(--i));
@@ -61,7 +63,6 @@ body {
 
 h1 {
   font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
   line-height: 1.5;
   color: white;
 }
@@ -74,5 +75,28 @@ h1 {
   color: white;
 }
 
-#footer {
+#aboutme {
+  margin-top: 80px;
+  color: white;
+  font-size: large;
+}
+
+#quote {
+  color: white;
+  margin-top: 200px;
+}
+
+#adblocker {
+  background-image: url("ad-blockers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#adblocker:hover {
+  background-color: aliceblue;
+}
+
+#inc {
+  margin-top: 140px;
+  color: white !important;
 }
