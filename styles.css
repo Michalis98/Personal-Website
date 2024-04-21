@@ -5,7 +5,7 @@
   font-family: "Courier New", Courier, monospace;
 }
 #homebtn {
-  background-color: rgb(144, 9, 185);
+  background-color: rgb(44, 32, 153);
 }
 body {
   min-height: 100vh;
@@ -106,4 +106,13 @@ body {
   height: 100vh; /* Set the height of html and body to the full viewport height */
   overflow: hidden; /* Hide the scroll bar */
   margin: 0; /* Remove default margins */
+}
+
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    height: 100vh; /* Set the height of html and body to the full viewport height */
+    margin: 0; /* Remove default margins */
+    overflow: auto; /* Hide the scroll bar */
+  }
 }

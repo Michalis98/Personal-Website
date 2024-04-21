@@ -17,7 +17,7 @@
 .contact4 h4,
 .contact4 h5,
 .contact4 h6 {
-  color: purple;
+  color: rgb(44, 32, 153);
 }
 
 .contact4 .font-weight-medium {
@@ -26,21 +26,21 @@
 
 .contact4 .form-control {
   background: transparent;
-  border: 2px solid purple;
+  border: 2px solid rgb(44, 32, 153);
 }
 
 .contact4 .form-control:focus {
-  border-color: purple;
+  border-color: rgb(44, 32, 153);
 }
 
 .contact4 input::-webkit-input-placeholder,
 .contact4 textarea::-webkit-input-placeholder {
-  color: purple;
+  color: rgb(44, 32, 153);
 }
 
 .contact4 input:-ms-input-placeholder,
 .contact4 textarea:-ms-input-placeholder {
-  color: purple;
+  color: rgb(44, 32, 153);
 }
 
 .contact4 input::placeholder,
